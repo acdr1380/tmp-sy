@@ -1,11 +1,9 @@
 {
-    "name": "sy-template",
+    "name": "tmp-sy",
     "version": "1.0.5",
     "license": "MIT",
     "main": "lib/index.js",
-    "bin": {
-        "sy-template": "lib/index.js"
-    },
+    "bin": "lib/index.js",
     "files": [
         "lib",
         "generators"
@@ -14,15 +12,16 @@
         "wf": "https://github.com/acdr1380/react-demo.git"
     },
     "dependencies": {
-        "chalk": "^4.1.1",
+        "chalk": "^4.1.2",
         "commander": "^7.2.0",
         "download-git-repo": "^3.0.2",
         "execa": "^5.1.1",
+        "figlet": "^1.5.2",
         "fs-extra": "^10.0.0",
         "global": "^4.4.0",
         "inquirer": "^7.3.3",
-        "log-symbols": "^2.2.0",
-        "ora": "^5.4.0",
+        "log-symbols": "^5.1.0",
+        "ora": "^5.4.1",
         "update-notifier": "^5.1.0"
     },
     "scripts": {
